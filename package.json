@@ -26,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/Askmona/messenger-bot/issues"
   },
-  "homepage": "https://github.com/Askmona/messenger-bot#readme"
+  "homepage": "https://github.com/Askmona/messenger-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
 }
