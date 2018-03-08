@@ -1,0 +1,30 @@
+{
+  "name": "messenger-bot",
+  "version": "1.0.0",
+  "description": "Messenger bot framework in NodeJS",
+  "main": "lib/Client.js",
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Askmona/messenger-bot.git"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "facebook",
+    "framework"
+  ],
+  "author": "Ask Mona <contact@askmona.fr> (http://askmona.fr/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Askmona/messenger-bot/issues"
+  },
+  "homepage": "https://github.com/Askmona/messenger-bot#readme"
+}
