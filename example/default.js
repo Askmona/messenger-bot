@@ -15,7 +15,7 @@ bot.on("message", message => {
     console.log(message.sender.fullname(), "sent a message")
 
     if (message.type === "text") {
-        message.sender.send("You said:", message.text)
+        message.sender.send(`You said: ${message.text}`)
     } else {
         message.sender.send("You didn't send a text! :(")
     }
