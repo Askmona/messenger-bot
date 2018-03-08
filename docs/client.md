@@ -25,6 +25,7 @@ Toggles the typing action
 |:-------------------------------|:------------------|:---------------------|
 | sender_id                      | ID                | The ID of the sender |
 | switch                         | Boolean           | Toggles the typing   |
+
 **Returns:** Promise
 
 ### post
@@ -34,4 +35,5 @@ Sends a raw post to the graph-api
 |:-------------------------------|:------------------|:---------------------|
 | endpoint                       | String            | Ex: "me/messages"    |
 | data                           | Object            | Data to post         |
+
 **Returns:** Promise
