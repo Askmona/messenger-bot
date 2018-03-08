@@ -3,7 +3,7 @@
 # Example
 
 ```js
-const Client = require("messenger-bot")
+const Client = require("@ask-mona/messenger-bot")
 const bot = new Client({
     appSecret: "",
     verifyToken: "",
