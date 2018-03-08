@@ -1,5 +1,5 @@
 {
-  "name": "messenger-bot",
+  "name": "@ask-mona/messenger-bot",
   "version": "1.0.0",
   "description": "Messenger bot framework in NodeJS",
   "main": "lib/Client.js",
