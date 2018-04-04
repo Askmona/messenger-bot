@@ -1,6 +1,6 @@
 {
   "name": "@ask-mona/messenger-bot",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Messenger bot framework in NodeJS",
   "main": "lib/Client.js",
   "directories": {
@@ -29,8 +29,8 @@
   "homepage": "https://github.com/Askmona/messenger-bot#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "request": "^2.83.0",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
     "request-promise-native": "^1.0.5"
   }
 }
