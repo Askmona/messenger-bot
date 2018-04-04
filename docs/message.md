@@ -27,5 +27,5 @@ Returns the sticker ID if the type is sticker
 **Type:** Int
 
 ### attachments
-Returns an array of attachment (stickers, gif)  
-**Type:** Array
+Returns an array of attachment (stickers, gif, files, geolocation ...)  
+**Type:** Array<[Attachment](attachment.md)>
