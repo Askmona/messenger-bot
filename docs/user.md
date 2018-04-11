@@ -30,14 +30,6 @@ UTC +timezone
 User's gender  
 **Type:** String
 
-### created_at
-User's first interaction with the bot  
-**Type:** timestamp
-
-### updated_at
-User's last update  
-**Type:** timestamp
-
 ## Methods
 
 ### fullname
