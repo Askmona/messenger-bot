@@ -35,9 +35,6 @@ User's gender
 ### fullname
 Returns first_name + last_name with a white space between
 
-### update
-Update the user's informations in the database
-
 ### send
 Sends a message
 
@@ -46,3 +43,49 @@ Sends a message
 | value                          | String, Number, Object | Any value       |
 | options / callback             | Object / Function | Optional             |
 | callback                       | Function          | Optional             |
+
+### sendAttachment
+Sends an attachment to the user
+
+| Parameter                      | Type              | Description          |
+|:-------------------------------|:------------------|:---------------------|
+| type                           | String            | Attachment type ("image", "audio", "video", "file) |
+| url                            | String            | URL of attachment    |
+
+**Returns:** Promise
+
+### sendImage
+Sends an image to the user
+
+| Parameter                      | Type              | Description          |
+|:-------------------------------|:------------------|:---------------------|
+| url                            | String            | URL of the image     |
+
+**Returns:** Promise
+
+### sendAudio
+Sends an audio to the user
+
+| Parameter                      | Type              | Description          |
+|:-------------------------------|:------------------|:---------------------|
+| url                            | String            | URL of the audio     |
+
+**Returns:** Promise
+
+### sendVideo
+Sends a video to the user
+
+| Parameter                      | Type              | Description          |
+|:-------------------------------|:------------------|:---------------------|
+| url                            | String            | URL of the video     |
+
+**Returns:** Promise
+
+### sendFile
+Sends a file to the user
+
+| Parameter                      | Type              | Description          |
+|:-------------------------------|:------------------|:---------------------|
+| url                            | String            | URL of the file      |
+
+**Returns:** Promise
