@@ -1,4 +1,4 @@
-const Client = require("@ask-mona/messenger-bot")
+const Client = require("../lib/Client")
 const bot = new Client({
     appSecret: "",
     verifyToken: "",
@@ -12,7 +12,12 @@ bot.on("postback", postback => {
 })
 
 bot.on("message", message => {
-    console.log(message.sender.fullname(), "sent a message")
+    if(message.sender.wc) {
+        message.sender.send('lol')
+        return
+    } else {
+        console.log(message.sender.fullname(), "sent a message")
+    }
 
     if (message.type === "text") {
         message.sender.send(`You said: ${message.text}`)
@@ -21,6 +26,7 @@ bot.on("message", message => {
     }
 })
 
-bot.start(5000, client => {
+bot.start({http:5002, socket:3001}, client => {
     console.log("bot started on port", client.app.get('port'))
+    console.log("And also on socket port", client.socketPort)
 })
