@@ -30,6 +30,7 @@
   "homepage": "https://github.com/Askmona/messenger-bot#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5",
