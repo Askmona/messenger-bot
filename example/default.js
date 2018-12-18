@@ -1,8 +1,8 @@
 const Client = require("../lib/Client")
 const bot = new Client({
-    appSecret: "",
-    verifyToken: "",
-    accessToken: ""
+    appSecret: "29f08fbf290fde25e70ed253863508b9",
+    verifyToken: "thomasleplusbeau",
+    accessToken: "EAAW29nBNgkMBAFmjJUTPL0gKHJnoBqCbAEIz6ERFdiBsBdiHabPhsjQVGgCXrdEzJ9m53eCldeZBEtA2aHFDzcZCpqYKwFvgqz84qNUw4B7O1CGVrvFOkOYUlSUa5GsAEjFgVZCiPtCrQ1N7sFj9yGCQZB2Mc68j1ZAFp2vBCogZDZD"
 })
 
 // Postback are either a Postback Button or a Quick Reply with a payload
