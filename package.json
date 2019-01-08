@@ -1,6 +1,6 @@
 {
   "name": "@ask-mona/messenger-bot",
-  "version": "2.1.7",
+  "version": "2.1.9",
   "description": "Messenger bot framework in NodeJS",
   "main": "lib/Client.js",
   "directories": {
