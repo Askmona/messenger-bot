@@ -1,6 +1,6 @@
 {
   "name": "@ask-mona/messenger-bot",
-  "version": "2.4.0",
+  "version": "2.5.2",
   "description": "Messenger bot framework in NodeJS",
   "main": "lib/Client.js",
   "directories": {
@@ -32,6 +32,7 @@
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "aws-xray-sdk": "^2.5.0",
     "dotenv": "^5.0.1",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5",
