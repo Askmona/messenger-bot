@@ -29,13 +29,11 @@
   },
   "homepage": "https://github.com/Askmona/messenger-bot#readme",
   "dependencies": {
+    "aws-xray-sdk": "^2.5.0",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "aws-xray-sdk": "^2.5.0",
-    "dotenv": "^5.0.1",
-    "request": "^2.85.0",
-    "request-promise-native": "^1.0.5",
+    "got": "^11.8.0",
     "socket.io": "^2.1.1",
     "socket.io-redis": "^5.2.0"
   }
